@@ -1,0 +1,73 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 1.3rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.time-content {
+  width: 800px;
+  height: auto;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.time h2 {
+  font-size: 2.6rem;
+  letter-spacing: 0.1em;
+}
+
+.time small {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.buttons button {
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 7px 16px;
+  background-color: transparent;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.buttons button:nth-child(1) {
+  background-color: #00ac00;
+}
+
+.buttons button:nth-child(2) {
+  background-color: #0066ff;
+}
+
+.buttons button:nth-child(3) {
+  background-color: #ff0000;
+}
+
+.date-content {
+  margin-top: 3rem;
+}
+
+.date-content span {
+  font-size: 14px;
+  font-weight: 400;
+}
