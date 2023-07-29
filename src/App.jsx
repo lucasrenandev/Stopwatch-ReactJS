@@ -106,7 +106,7 @@ export default function App() {
     const now = new Date()
     const day = now.getDay()
     const date = now.getDate()
-    const month = now.getMonth() + 1
+    const month = now.getMonth()
     const year = now.getFullYear()
     dayElement.textContent = daysArray[day] + ", "
     dateElement.textContent = date + ", "
